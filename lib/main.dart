@@ -51,8 +51,8 @@ class MyHomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 ElevatedButton(
-                  onPressed: (){}, // callback do evento
-                  child: const Text( // texto com a info do botão
+                  onPressed: (){},
+                  child: const Text(
                     "+",
                     style: TextStyle(
                       fontSize: 27.0,
@@ -63,8 +63,8 @@ class MyHomePage extends StatelessWidget {
                   )
                 ),
                 ElevatedButton(
-                  onPressed: (){}, // callback do evento
-                  child: const Text( // texto com a info do botão
+                  onPressed: (){},
+                  child: const Text(
                     "-",
                     style: TextStyle(
                       fontSize: 27.0,
